@@ -1,6 +1,10 @@
+#!/usr/bin/python
+
 import os
 import time
 import datetime
+
+os.chdir("/home/root/DoeIce/scripts")
 
 print("Removing any old images and downloading new one")
 os.system("rm video.jpg")
